@@ -52,11 +52,6 @@ const services = [
     description:
       "Boost your online presence with web design services! Your website is more than just a digital storefront - it's your chance to leave a lasting impression and connect with your audience on a deeper level.",
   },
-  {
-    title: 'Wordpress Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.',
-  },
 ]
 
 const dataportfolio = [
