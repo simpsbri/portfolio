@@ -6,46 +6,45 @@ import {
   FaFacebookF,
   FaLinkedin,
   FaYoutube,
-  FaTwitch,
 } from 'react-icons/fa'
-import { socialprofiles } from '../../content_option'
+import { socialProfiles } from '../../content_option'
 
 export const Socialicons = (params) => {
   return (
     <div className='stick_follow_icon'>
       <ul>
-        {socialprofiles.twitter && (
+        {socialProfiles.twitter && (
           <li>
-            <a href={socialprofiles.twitter} target='_blank'>
+            <a href={socialProfiles.twitter} target='_blank'>
               <FaTwitter />
             </a>
           </li>
         )}
-        {socialprofiles.github && (
+        {socialProfiles.github && (
           <li>
-            <a href={socialprofiles.github} target='_blank'>
+            <a href={socialProfiles.github} target='_blank'>
               <FaGithub />
             </a>
           </li>
         )}
-        {socialprofiles.facebook && (
+        {socialProfiles.facebook && (
           <li>
-            <a href={socialprofiles.facebook} target='_blank'>
+            <a href={socialProfiles.facebook} target='_blank'>
               <FaFacebookF />
             </a>
           </li>
         )}
-        {socialprofiles.linkedin && (
+        {socialProfiles.linkedin && (
           <li>
-            <a href={socialprofiles.linkedin} target='_blank'>
+            <a href={socialProfiles.linkedin} target='_blank'>
               <FaLinkedin />
             </a>
           </li>
         )}
         {/* TODO: Add YouTube and other icons
-        {socialprofiles.youtube && (
+        {socialProfiles.youtube && (
           <li>
-            <a href={socialprofiles.youtube} target='_blank'>
+            <a href={socialProfiles.youtube} target='_blank'>
               <FaYoutube />
             </a>
           </li>

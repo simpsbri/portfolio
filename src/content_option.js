@@ -1,11 +1,11 @@
-const logotext = 'BRIAN'
+const LogoText = 'BRIAN'
 const meta = {
   title: 'Brian Simpson',
   description:
     'I’m Brian Simpson _ Full stack developer, currently working in Kansas',
 }
 
-const introdata = {
+const introData = {
   title: 'I’m Brian Simpson',
   animated: {
     first: 'I love coding',
@@ -14,16 +14,16 @@ const introdata = {
   },
   description:
     "I'm a passionate explorer of the fascinating and the extraordinary. With a curiosity-driven mindset, I've dedicated myself to uncovering and sharing the coolest and most mind-blowing discoveries out there.",
-  your_img_url:
+  imageLocation:
     'https://images.unsplash.com/photo-1509396591411-549811e332fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hhZG93JTIwcGVyc29ufGVufDB8fDB8fHww',
 }
 
-const dataabout = {
+const dataAbout = {
   title: 'about my self',
   aboutme:
     'I believe that life is too short to be anything but amazed. I\'m committed to delivering content that will leave you saying, "Wow, that\'s cool!" My goal is to be your go-to source for inspiration, wonder, and a little bit of fun.',
 }
-const worktimeline = [
+const workTimeline = [
   {
     jobtitle: 'CEO',
     where: 'WebKIDSS',
@@ -54,7 +54,7 @@ const services = [
   },
 ]
 
-const dataportfolio = [
+const dataPortfolio = [
   {
     img: '/images/WebKIDSS.png',
     description:
@@ -82,7 +82,7 @@ const contactConfig = {
     "Hey there! Whether you want to work on a project together, have any questions about my services, or just feel like chatting about cool stuff, I'm here and excited to connect with you. Looking forward to hearing from you!",
 }
 
-const socialprofiles = {
+const socialProfiles = {
   github: 'https://github.com/simpsbri',
   facebook: 'https://facebook.com/simpsbri',
   linkedin: 'https://www.linkedin.com/in/simpsbri/',
@@ -90,12 +90,12 @@ const socialprofiles = {
 }
 export {
   meta,
-  dataabout,
-  dataportfolio,
-  worktimeline,
+  dataAbout,
+  dataPortfolio,
+  workTimeline,
   services,
-  introdata,
+  introData,
   contactConfig,
-  socialprofiles,
-  logotext,
+  socialProfiles,
+  LogoText,
 }
