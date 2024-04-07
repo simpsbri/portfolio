@@ -42,8 +42,8 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
-        //TODO: Add YouTube and other icons
-        {/* {socialprofiles.youtube && (
+        {/* TODO: Add YouTube and other icons
+        {socialprofiles.youtube && (
           <li>
             <a href={socialprofiles.youtube} target='_blank'>
               <FaYoutube />
