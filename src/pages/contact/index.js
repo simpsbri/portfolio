@@ -31,7 +31,7 @@ export const ContactUs = () => {
               </a>
               <br />
               <br />
-              {contactConfig.hasOwnProperty('YOUR_PHONE') ? (
+              {contactConfig.hasOwnProperty('PHONE') ? (
                 <p>
                   <strong>Phone:</strong> {contactConfig.PHONE}
                 </p>
